@@ -1,6 +1,11 @@
 # FFmpeg_command_tools
 Frequently-used commands of ffmpeg
 
+### Extract frames from the video
+```bash
+ffmpeg -i <video_path.mp4> -vf fps=30 <output_video_path.mp4>
+```
+
 
 ### Export the audio from the video
 ```bash
